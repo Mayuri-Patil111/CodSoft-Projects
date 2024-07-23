@@ -1,0 +1,166 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    font-size: 1.1rem;
+    line-height: 1.6;
+    background-color: mistyrose;
+}
+
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 10 0px;
+}
+
+header {
+    background-color: mistyrosez;
+    color:black;
+    padding: 0px 0;
+}
+
+header h1 {
+    float: left;
+    background-color: rgb(225, 126, 126);
+}
+
+nav ul {
+    float: right;
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color:black;
+    text-decoration:black;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+.image-section{
+    text-align: right;
+    margin-top: -150px;
+    margin-right: -50px;
+}
+
+.image-section img{
+    width: 273;
+    height: 200px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+#health {
+    padding: 70px 0px;
+    background-color:whitesmoke;
+    color: black;
+    text-align: center;
+}
+
+#watch {
+    text-align:left;
+    padding: 100px 0;
+    background-color:mistyrose;
+    color: black;
+}
+
+#watch h2 {
+    margin-bottom: 40;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #f44336;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.btn:hover {
+    background-color: #555;
+}
+
+#features {
+    background-color: #fff;
+    padding: 80px 0;
+    text-align: ce;
+    margin-left: -30px;
+}
+
+#features h2 {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+nav ul {
+    float: right;
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-left: 20px;
+}
+
+nav ul li b {
+    color:black;
+    text-decoration: none;
+}
+
+#about {
+    background-color: mistyrose;
+    padding: 10px;
+    text-align: center;
+}
+
+#about h2 {
+    margin-bottom: 40px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+footer p {
+    margin-bottom: 10px;
+}
+
+.social {
+    list-style: none;
+    padding: 0;
+}
+
+.social li {
+    display: inline;
+    margin: 0 10px;
+}
+
+.social li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.social li a:hover {
+    text-decoration: underline;
+}
+
+image {
+    flex-shrink: 0;
+    width: 100%;
+    max-width: 100%;
+    margin-top: var(--bs-gutter-y);  
+}
